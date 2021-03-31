@@ -1,0 +1,10 @@
+logging:
+  file:
+    name: async.log
+spring:
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+  freemarker:
+    cache: false
